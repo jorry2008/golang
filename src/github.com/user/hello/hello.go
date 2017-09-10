@@ -2,11 +2,16 @@ package main
 
 import (
 	"fmt"
-
-	"github.com/user/stringutil"
 )
 
 func main() {
+	var a, b, c int
+	//	a = 234
+	//	b = 123
+	//	c = 677
 
-	fmt.Printf(stringutil.Reverse("!oG ,olleH"))
+	a, b, c = 5, 7, 9
+
+	fmt.Println(a, b, c)
+
 }

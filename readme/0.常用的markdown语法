@@ -1,0 +1,60 @@
+网上有一些非常直观的介绍
+https://coding.net/help/doc/project/markdown.html
+
+标题：
+# 一级标题
+## 二级标题
+### 三级标题
+#### 四级标题
+##### 五级标题
+###### 六级标题
+
+引用：
+> 这是第一级引用。
+>
+> > 这是第二级引用。
+>
+> 现在回到第一级引用。
+
+组合实例：
+> ## 这是一个标题。
+>
+> 1. 这是第一行列表项。
+> 2. 这是第二行列表项。
+>
+> 给出一些例子代码：
+>
+> return shell_exec("echo $input | $markdown_script");
+
+无序列表：
+- Red
+- Green
+- Blue
+
+有序列表：
+1. Red
+2. Green
+3. Blue
+
+勾选列表：
+- [ ] 不勾选
+- [x] 勾选
+
+代码列表：
+```ruby
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
+```
+
+强调：
+*Coding，让开发更简单*
+_Coding，让开发更简单_
+**Coding，让开发更简单**
+__Coding，让开发更简单__
+注：成对出现
+
+分隔线：
+---
+
+
